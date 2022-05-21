@@ -1,7 +1,7 @@
 <?php
 
 // Replace this with your own email address
-$to = 'joefrey.mahusay@gmail.com';
+$to = 'mattiabaldinazzoproject@gmail.com';
 
 function url(){
   return sprintf(
@@ -22,7 +22,7 @@ if($_POST) {
    $budget = trim(stripslashes($_POST['budget']));
    $date = trim(stripslashes($_POST['date']));
 
-   
+
 	if ($subject == '') { $subject = "Contact Form Submission"; }
 
    // Set Message
